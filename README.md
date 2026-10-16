@@ -36,6 +36,18 @@ python3 validator.py
 
 If you opened that problem folder directly in VS Code, its terminal is already there; run `python3 validator.py`. On some systems, use `python` instead. The exercises use Python's standard library, so no package installation or virtual environment is needed.
 
+## Reference Solutions
+
+The Bloomberg Interview Preparation Night workshop has concluded, so reference solutions are now publicly available. Use the original exercises to investigate the bugs first, then compare your work with the corrected implementation and explanation.
+
+- [Round 1 · Code Validator](https://github.com/ehuerta6/bloomberg-ai-interview-practice/blob/main/solutions/round-1/01-code-validator/README.md)
+- [Round 1 · Event Scheduler](https://github.com/ehuerta6/bloomberg-ai-interview-practice/blob/main/solutions/round-1/02-event-scheduler/README.md)
+- [Round 1 · Cappy's Snack Inventory](https://github.com/ehuerta6/bloomberg-ai-interview-practice/blob/main/solutions/round-1/03-snack-inventory/README.md)
+- [Round 2 · Event Registration](https://github.com/ehuerta6/bloomberg-ai-interview-practice/blob/main/solutions/round-2/01-event-registration/README.md)
+- [Round 2 · Order Processing](https://github.com/ehuerta6/bloomberg-ai-interview-practice/blob/main/solutions/round-2/02-order-processing/README.md)
+
+The `round-1/` and `round-2/` directories contain the original starter exercises, including their intentionally incomplete or misleading tests. The `solutions/` directory contains corrected implementations, tests, and explanations. These remain original CIC practice exercises, not official Bloomberg interview questions.
+
 ## What you'll practice
 
 Round 1 is pull request review in a single Python file. The implementation and `unittest` tests are together in that file. Round 2 gives you a small multi-file codebase and an engineering ticket; trace how a request and its state move between modules.

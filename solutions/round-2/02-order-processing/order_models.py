@@ -1,0 +1,10 @@
+from dataclasses import dataclass
+
+
+@dataclass
+class Order:
+    order_id: str
+    student_id: str
+    item: str
+    quantity: int
+    status: str = "pending"
